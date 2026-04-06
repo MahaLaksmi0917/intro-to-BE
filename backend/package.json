@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-be",
+  "version": "1.0.0",
+  "description": "a be tutorial",
+  "homepage": "https://github.com/MahaLaksmi0917/intro-to-BE#readme",
+  "bugs": {
+    "url": "https://github.com/MahaLaksmi0917/intro-to-BE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahaLaksmi0917/intro-to-BE.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14"
+  }
+}
